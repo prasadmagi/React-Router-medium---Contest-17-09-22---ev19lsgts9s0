@@ -7,7 +7,7 @@ export const BackgroundColorChanger = () => {
     console.log(colorname);
     return (
         <div style={{ height: "100vh", backgroundColor: `${colorname}` }}>
-
+            Background Color Changer
         </div>
     )
 }
