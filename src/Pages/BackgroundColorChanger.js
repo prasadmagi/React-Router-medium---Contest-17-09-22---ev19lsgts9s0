@@ -6,8 +6,8 @@ export const BackgroundColorChanger = () => {
     let { colorname } = useParams();
     console.log(colorname);
     return (
-        <div style={{ height: "100vh", backgroundColor: `${colorname}` }}>
+        <main style={{ height: "100vh", backgroundColor: `${colorname}` }}>
             Background Color Changer
-        </div>
+        </main>
     )
 }
